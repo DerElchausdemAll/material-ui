@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "build": "react-scripts build",
-    "spj": "npx sort-package-json@1.48 package.json",
     "dev": "react-scripts start",
+    "spj": "npx sort-package-json@1.48 package.json",
     "stylelint": "stylelint 'src/*.{js,jsx}'"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/styles": "^5.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
